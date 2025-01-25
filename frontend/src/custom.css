@@ -1,0 +1,119 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    /* Couleur de fond douce */
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1f2937;
+    /* Gris foncé */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #374151;
+    /* Gris moyen */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    /* Gris clair */
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #3b82f6;
+    /* Bleu clair */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    color: #374151;
+}
+
+.checkbox-group a {
+    font-size: 14px;
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.checkbox-group a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6;
+    /* Bleu */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2563eb;
+    /* Bleu plus foncé */
+}
+
+.signup-text {
+    font-size: 14px;
+    text-align: center;
+    color: #6b7280;
+    /* Gris clair */
+}
+
+.signup-text a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
